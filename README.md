@@ -30,7 +30,7 @@ The repository contains the following notebooks:
 
 ## References
 
-[A] [J. Hoydis, F. Ait Aoudia, S. Cammerer, M. Nimier-David, N. Binder, G. Marcus, A. Keller, "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling", Mar. 2023.](https://arxiv.org)
+[A] [J. Hoydis, F. Ait Aoudia, S. Cammerer, M. Nimier-David, N. Binder, G. Marcus, A. Keller, "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling", Mar. 2023.](https://drive.google.com/file/d/1fTbTC6ogj9p8lPevvrFUu8tyOhsNArJm/view?usp=share_link)
 
 [B] [J. Hoydis, S. Cammerer, F. Ait Aoudia, A. Vem, N. Binder, G. Marcus, A. Keller, "Sionna: An Open-Source Library for Next-Generation Physical Layer Research", Mar. 2022.](https://arxiv.org/abs/2203.11854)
 
