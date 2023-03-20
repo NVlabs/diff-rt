@@ -47,7 +47,6 @@ If you use this software, please cite it as:
     author = {Hoydis, Jakob and {Ait Aoudia}, Fayçal and Cammerer, Sebastian and Nimier-David, Merlin and Binder, Nikolaus and Marcus, Guillermo and Keller, Alexander},
     year = {2023},
     month = MAR,
-    journal = {arXiv preprint},
-    online = {https://drive.google.com/file/d/1fTbTC6ogj9p8lPevvrFUu8tyOhsNArJm/view?usp=share_link}
+    journal = {arXiv preprint}
 }
 ```
