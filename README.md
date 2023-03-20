@@ -16,7 +16,7 @@ This repository contains code to reproduce some of the results from the paper [S
 Sionna&trade; is a GPU-accelerated open-source library for link-level simulations based on TensorFlow. Its latest release (v0.14) integrates a differentiable ray tracer (RT) for the simulation of radio wave propagation. This unique feature allows for the computation of gradients of the channel impulse response (or related quantities) with respect to many system  and environment parameters, such as material properties, antenna patterns, array geometries, as well as transmitter and receiver orientations and positions. In this paper, we outline the key components of Sionna RT and showcase several use-cases such as learning of radio materials and optimizing transmitter orientations through gradient descent. While ray tracing is a crucial tool for 6G research on topics like reconfigurable intelligent surfaces, integrated sensing and communications, as well as user localization, we believe that differentiable ray tracing is a key enabler for many novel and exciting research directions such as digital twins.
 
 ## Setup
-Running this code requires [Sionna 0.14](https://nvlabs.github.io/sionna/).
+Running this code requires [Sionna 0.14](https://nvlabs.github.io/sionna/) or later.
 To run the notebooks on your machine, you also need [Jupyter](https://jupyter.org).
 We recommend Ubuntu 20.04, Python 3.8, and TensorFlow 2.11.
 
