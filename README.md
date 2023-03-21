@@ -10,7 +10,7 @@ its affiliates is strictly prohibited. -->
 
 # Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling
 
-This repository contains code to reproduce some of the results from the paper [Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling [A]](https://drive.google.com/file/d/1fTbTC6ogj9p8lPevvrFUu8tyOhsNArJm/view?usp=share_link) using the [Sionna&trade; link-level simulator [B]](https://nvlabs.github.io/sionna/).
+This repository contains code to reproduce some of the results from the paper [Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling [A]](https://arxiv.org/abs/2303.11103) using the [Sionna&trade; link-level simulator [B]](https://nvlabs.github.io/sionna/).
 
 ## Abstract
 Sionna&trade; is a GPU-accelerated open-source library for link-level simulations based on TensorFlow. Its latest release (v0.14) integrates a differentiable ray tracer (RT) for the simulation of radio wave propagation. This unique feature allows for the computation of gradients of the channel impulse response (or related quantities) with respect to many system  and environment parameters, such as material properties, antenna patterns, array geometries, as well as transmitter and receiver orientations and positions. In this paper, we outline the key components of Sionna RT and showcase several use-cases such as learning of radio materials and optimizing transmitter orientations through gradient descent. While ray tracing is a crucial tool for 6G research on topics like reconfigurable intelligent surfaces, integrated sensing and communications, as well as user localization, we believe that differentiable ray tracing is a key enabler for many novel and exciting research directions such as digital twins.
@@ -30,7 +30,7 @@ The repository contains the following notebooks:
 
 ## References
 
-[A] [J. Hoydis, F. Ait Aoudia, S. Cammerer, M. Nimier-David, N. Binder, G. Marcus, A. Keller, "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling", Mar. 2023.](https://drive.google.com/file/d/1fTbTC6ogj9p8lPevvrFUu8tyOhsNArJm/view?usp=share_link)
+[A] [J. Hoydis, F. Ait Aoudia, S. Cammerer, M. Nimier-David, N. Binder, G. Marcus, A. Keller, "Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling", Mar. 2023.](https://arxiv.org/abs/2303.11103)
 
 [B] [J. Hoydis, S. Cammerer, F. Ait Aoudia, A. Vem, N. Binder, G. Marcus, A. Keller, "Sionna: An Open-Source Library for Next-Generation Physical Layer Research", Mar. 2022.](https://arxiv.org/abs/2203.11854)
 
@@ -47,6 +47,7 @@ If you use this software, please cite it as:
     author = {Hoydis, Jakob and {Ait Aoudia}, Fayçal and Cammerer, Sebastian and Nimier-David, Merlin and Binder, Nikolaus and Marcus, Guillermo and Keller, Alexander},
     year = {2023},
     month = MAR,
-    journal = {arXiv preprint}
+    journal = {arXiv preprint},
+    online = {https://arxiv.org/abs/2303.11103}
 }
 ```
